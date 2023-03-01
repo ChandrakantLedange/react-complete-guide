@@ -1,6 +1,6 @@
 import "./App.css";
-import ExpenseItem from "./components/ExpenseItem";
-import Expenses from "./components/Expenses";
+import ExpenseItem from "./components/Expenses/ExpenseItem";
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
   return (
