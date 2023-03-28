@@ -15,7 +15,7 @@ export default function AddUser() {
         <input id="username" type="text" />
         <label htmlFor="age">Age (years)</label>
         <input id="age" type="number" />
-        <Button>Add User</Button>
+        <Button type="submit">Add User</Button>
         {/* <button type="submit"></button> */}
       </form>
     </Card>
