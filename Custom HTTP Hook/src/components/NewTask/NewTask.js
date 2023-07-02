@@ -12,7 +12,7 @@ const NewTask = (props) => {
     setError(null);
     try {
       const response = await fetch(
-        "https://custom-http-tasks-default-rtdb.firebaseio.com/tasks.json",
+        "https://custom-http-tasks-default-rtdb.firebaseio.com//tasks.json",
         {
           method: "POST",
           body: JSON.stringify({ text: taskText }),
