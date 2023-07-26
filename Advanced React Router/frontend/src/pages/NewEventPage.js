@@ -1,5 +1,7 @@
-import React from "react";
+import EventForm from "../components/EventForm";
 
-export default function NewEventPage() {
-  return <div>NewEventPage</div>;
+function NewEventPage() {
+  return <EventForm method="post" />;
 }
+
+export default NewEventPage;
